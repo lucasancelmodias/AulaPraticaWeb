@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+* {
+	font-family:"Comic Sans MS", "Comic Sans", cursive;
+}
+.wrapper {
+  width: 100%;
+  padding: 1px;
+  margin: 0 auto 60px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+ul.navigation li a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 60%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+p {
+  text-align: center;
+}
+#linkedin-img {
+  width: 32px;
+  height: auto;
+  background-color: rgb(248, 245, 245);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+
+    <title>Contato</title>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+    <div>
+      <div class="wrapper">
+        <form class="form-contato" action="mailto:lucas.ancelmo@outlook.com">
+          <label for="name">Nome:</label>
+
+          <input type="text" name="name" required />
+          <label for="mail">E-mail:</label>
+
+          <input type="text" name="mail" required />
+          <label for="comment">Comentário:</label>
+          <textarea
+            id="comment"
+            name="comment"
+            cols="45"
+            rows="8"
+            maxlength="65525"
+            required
+          ></textarea>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </form>
+        <footer>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/lucas-ancelmo-dias-889114195/"
+            ><img id="linkedin-img" src="img/linkedin.svg" alt="Topper"
+          /></a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
